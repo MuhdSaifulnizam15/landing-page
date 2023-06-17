@@ -6,6 +6,9 @@
     "dev": "next dev",
     "build": "next build && next export -o _static"
   },
+    "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "dotenv": "^8.2.0",
     "framer-motion": "^2.7.5",
