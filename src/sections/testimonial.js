@@ -13,43 +13,43 @@ import Avatar4 from 'assets/testimonial/avatar4.png';
 const data = [
   {
     id: 1,
-    title: 'Modern look & trending design',
+    // title: 'Modern look & trending design',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'Good place for car wash. If for any reason the wash doesn’t meet your expectations, just let them know and they’re happy to address it. Already a member here for 4 months.',
     avatar: Avatar1,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
-    review: 4,
+    name: 'Fellicia Tan',
+    // designation: '@denny.hil',
+    review: 5,
   },
   {
     id: 2,
-    title: 'Design Quality & performance',
+    // title: 'Design Quality & performance',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      `Excellent car cleaning service! I've visited few car wash in this area, and this one stands out as the best. Their attention to detail and thorough cleaning service are impressive.`,
     avatar: Avatar2,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Denny Koh',
+    // designation: '@denny.hil',
     review: 5,
   },
   {
     id: 3,
-    title: 'Layout and organized layers',
+    // title: 'Layout and organized layers',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'My favourite to go place for a car wash spa! Service is top notch and staffs are highly professional and friendly. Car is squeaky clean again 👏.',
     avatar: Avatar3,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Xhan Lee',
+    // designation: '@denny.hil',
     review: 5,
   },
   {
     id: 4,
-    title: 'Modern look & trending design',
+    // title: 'Modern look & trending design',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'I sent my car to 7autospa for polishing. They were very professional ，polished my car to a very bright , I very satisfied.',
     avatar: Avatar4,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
-    review: 4,
+    name: 'Vincent Chuan',
+    // designation: '@denny.hil',
+    review: 5,
   },
 ];
 

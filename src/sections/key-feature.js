@@ -12,34 +12,42 @@ const data = [
   {
     id: 1,
     imgSrc: Performance,
-    altText: 'Fast Performance',
-    title: 'Fast Performance',
+    altText: 'Quality Workmanship',
+    title: 'Quality Workmanship',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Since 2023 we’ve pride ourselves on highly quality workmanship and customer satisfaction.',
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: 'Partnership deal',
-    title: 'Partnership deal',
+    altText: 'Competitive Pricing',
+    title: 'Competitive Pricing',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'We guarantee the highest quality workmanship at competitive prices..',
   },
   {
     id: 3,
     imgSrc: Subscription,
-    altText: 'Pro Subscription',
-    title: 'Pro Subscription',
+    altText: 'Strategic Location',
+    title: 'Strategic Location',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Fully Equipped workshop located at Klang.',
   },
   {
     id: 4,
     imgSrc: Support,
-    altText: 'Customer Support',
-    title: 'Customer Support',
+    altText: 'Online Appointment',
+    title: 'Online Appointment',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Fill out our Online Booking form and we’ll get back to you quickly!.',
+  },
+  {
+    id: 5,
+    imgSrc: Support,
+    altText: 'Membership Program',
+    title: 'Membership Program',
+    text:
+      'We offers reasonable and competitive point membership system to our customers.',
   },
 ];
 
@@ -48,8 +56,8 @@ export default function KeyFeature() {
    <section id="feature" sx={{ variant: 'section.keyFeature' }}>
      <Container>
        <SectionHeader 
-        slogan="Whats the function"
-        title="Meet the feature of our product"
+        slogan="Why Basuhlah?"
+        title="Does more than a customer could ask"
        />
 
        <Grid sx={styles.grid}>

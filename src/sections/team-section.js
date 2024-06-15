@@ -16,63 +16,63 @@ const data = [
   {
     id: 1,
     imgSrc: Member1,
-    altText: 'Saimon Harmer',
-    title: 'Saimon Harmer',
+    altText: 'Yehgatheswaran',
+    title: 'Yehgatheswaran',
     designation: 'CEO and Founder',
-    socialProfile: [
-      {
-        id: 1,
-        name: 'facebook',
-        path: '#',
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: 'twitter',
-        path: '#',
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: 'instagram',
-        path: '#',
-        icon: <FaInstagram />,
-      },
-    ],
+    // socialProfile: [
+    //   {
+    //     id: 1,
+    //     name: 'facebook',
+    //     path: '#',
+    //     icon: <FaFacebookF />,
+    //   },
+    //   {
+    //     id: 2,
+    //     name: 'twitter',
+    //     path: '#',
+    //     icon: <FaTwitter />,
+    //   },
+    //   {
+    //     id: 3,
+    //     name: 'instagram',
+    //     path: '#',
+    //     icon: <FaInstagram />,
+    //   },
+    // ],
   },
   {
     id: 2,
     imgSrc: Member2,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
+    altText: 'Eleiganthiran',
+    title: 'Eleiganthiran',
     designation: 'Founder',
-    socialProfile: [
-      {
-        id: 1,
-        name: 'facebook',
-        path: '#',
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: 'twitter',
-        path: '#',
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: 'instagram',
-        path: '#',
-        icon: <FaInstagram />,
-      },
-    ],
+    // socialProfile: [
+    //   {
+    //     id: 1,
+    //     name: 'facebook',
+    //     path: '#',
+    //     icon: <FaFacebookF />,
+    //   },
+    //   {
+    //     id: 2,
+    //     name: 'twitter',
+    //     path: '#',
+    //     icon: <FaTwitter />,
+    //   },
+    //   {
+    //     id: 3,
+    //     name: 'instagram',
+    //     path: '#',
+    //     icon: <FaInstagram />,
+    //   },
+    // ],
   },
   {
     id: 3,
     imgSrc: Member3,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
-    designation: 'Web Designer',
+    altText: 'Muhd Saiful',
+    title: 'Muhd Saiful',
+    designation: 'Web Developer',
     socialProfile: [
       {
         id: 1,
@@ -99,7 +99,7 @@ const data = [
     imgSrc: Member4,
     altText: 'Lina Jutila',
     title: 'Lina Jutila',
-    designation: 'Web Developer',
+    designation: 'Klang Branch Manager',
     socialProfile: [
       {
         id: 1,
@@ -126,54 +126,54 @@ const data = [
     imgSrc: Member5,
     altText: 'Saimon Harmer',
     title: 'Saimon Harmer',
-    designation: 'CEO and Founder',
-    socialProfile: [
-      {
-        id: 1,
-        name: 'facebook',
-        path: '#',
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: 'twitter',
-        path: '#',
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: 'instagram',
-        path: '#',
-        icon: <FaInstagram />,
-      },
-    ],
+    designation: 'Staff',
+    // socialProfile: [
+    //   {
+    //     id: 1,
+    //     name: 'facebook',
+    //     path: '#',
+    //     icon: <FaFacebookF />,
+    //   },
+    //   {
+    //     id: 2,
+    //     name: 'twitter',
+    //     path: '#',
+    //     icon: <FaTwitter />,
+    //   },
+    //   {
+    //     id: 3,
+    //     name: 'instagram',
+    //     path: '#',
+    //     icon: <FaInstagram />,
+    //   },
+    // ],
   },
   {
     id: 6,
     imgSrc: Member6,
     altText: 'Aaron Nunez',
     title: 'Aaron Nunez',
-    designation: 'Web Designer',
-    socialProfile: [
-      {
-        id: 1,
-        name: 'facebook',
-        path: '#',
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: 'twitter',
-        path: '#',
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: 'instagram',
-        path: '#',
-        icon: <FaInstagram />,
-      },
-    ],
+    designation: 'Staff',
+    // socialProfile: [
+    //   {
+    //     id: 1,
+    //     name: 'facebook',
+    //     path: '#',
+    //     icon: <FaFacebookF />,
+    //   },
+    //   {
+    //     id: 2,
+    //     name: 'twitter',
+    //     path: '#',
+    //     icon: <FaTwitter />,
+    //   },
+    //   {
+    //     id: 3,
+    //     name: 'instagram',
+    //     path: '#',
+    //     icon: <FaInstagram />,
+    //   },
+    // ],
   },
 ];
 
@@ -183,7 +183,7 @@ export default function TeamSection() {
       <Container>
         <SectionHeader 
           slogan="Our teams"
-          title="THe most qualified and talented individuals"
+          title="Meet our talented individuals"
         />
 
         <Grid sx={styles.grid}>
