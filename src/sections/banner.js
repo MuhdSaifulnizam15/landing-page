@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { Container, Box, Heading, Text, Image, Button } from 'theme-ui';
-import BannerImg from 'assets/page-header.jpg';
+import BannerImg from 'assets/banner-thumb.png';
 import ShapeLeft from 'assets/shape-left.png';
 import ShapeRight from 'assets/shape-right.png';
 
@@ -11,12 +11,10 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Car Wash and Detailing Services
+            Top Quality Digital Products to Explore
           </Heading>
           <Text as="p" variant="heroSecondary">
-            We operate car wash & detailing services in Klang. 
-            Basuhlah is the leading professional car cleaning service in Kuala Lumpur and we have been helping customers maintain the value of their cars since 2024.
-            100% committed to hand washing, Basuhlah prides itself on delivering a quality and convenient experience at the downtown location, Klang. We helped more than a thousand cars look like new again.
+            Check out our website to find great sofware products and deals! If you need a website or a web application, this is the place to go!
           </Text>
           <Button variant="primary">Explore</Button>
         </Box>

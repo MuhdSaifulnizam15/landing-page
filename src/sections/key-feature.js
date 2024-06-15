@@ -12,42 +12,34 @@ const data = [
   {
     id: 1,
     imgSrc: Performance,
-    altText: 'Quality Workmanship',
-    title: 'Quality Workmanship',
+    altText: 'Fast Performance',
+    title: 'Fast Performance',
     text:
-      'Since 2023 we’ve pride ourselves on highly quality workmanship and customer satisfaction.',
+      'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: 'Competitive Pricing',
-    title: 'Competitive Pricing',
+    altText: 'Partnership deal',
+    title: 'Partnership deal',
     text:
-      'We guarantee the highest quality workmanship at competitive prices..',
+      'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
   {
     id: 3,
     imgSrc: Subscription,
-    altText: 'Strategic Location',
-    title: 'Strategic Location',
+    altText: 'Pro Subscription',
+    title: 'Pro Subscription',
     text:
-      'Fully Equipped workshop located at Klang.',
+      'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
   {
     id: 4,
     imgSrc: Support,
-    altText: 'Online Appointment',
-    title: 'Online Appointment',
+    altText: 'Customer Support',
+    title: 'Customer Support',
     text:
-      'Fill out our Online Booking form and we’ll get back to you quickly!.',
-  },
-  {
-    id: 5,
-    imgSrc: Support,
-    altText: 'Membership Program',
-    title: 'Membership Program',
-    text:
-      'We offers reasonable and competitive point membership system to our customers.',
+      'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
 ];
 
@@ -56,8 +48,8 @@ export default function KeyFeature() {
    <section id="feature" sx={{ variant: 'section.keyFeature' }}>
      <Container>
        <SectionHeader 
-        slogan="Why Basuhlah?"
-        title="Does more than a customer could ask"
+        slogan="Whats the function"
+        title="Meet the feature of our product"
        />
 
        <Grid sx={styles.grid}>

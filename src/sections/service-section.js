@@ -14,23 +14,23 @@ import Secure from 'assets/services/secure.svg';
 
 const data = {
   subTitle: 'our services',
-  title: 'This is what we do and we do it perfectly',
+  title: 'Business Goals Achieved with Design',
   features: [
     {
       id: 1,
       imgSrc: Smart,
-      altText: 'Snow Wash with Vacuum',
-      title: 'Snow Wash with Vacuum',
+      altText: 'Smart Features',
+      title: 'Smart Features',
       text:
-        'Our hand car wash service cleans thoroughly the exterior and interior of your car. Providing good protection to your car from keeping the body stay shine and away from contaminants. ',
+        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
     },
     {
       id: 2,
       imgSrc: Secure,
-      altText: 'Headlamp Restoration & Polishing',
-      title: 'Headlamp Restoration & Polishing',
+      altText: 'Secure Contents',
+      title: 'Secure Contents',
       text:
-        'We provide car headlamp restoration service including cleaning and polishing to help your car headlight to restore a brand new look-alike feel.',
+        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
     },
   ],
 };
@@ -47,7 +47,7 @@ export default function ServiceSection() {
   return (
     <section sx={{ variant: 'section.services' }}>
       <Container sx={styles.containerBox}>
-        {/* <Box sx={styles.thumbnail}>
+        <Box sx={styles.thumbnail}>
           <Image src={ServiceThumb} alt="Thumbnail" />
           <Button
             sx={styles.videoBtn}
@@ -61,7 +61,7 @@ export default function ServiceSection() {
           <Box sx={styles.shapeBox}>
             <Image src={shapePattern} alt="shape" />
           </Box>
-        </Box> */}
+        </Box>
         <Box sx={styles.contentBox}>
           <TextFeature subTitle={data.subTitle} title={data.title} />
 
@@ -82,12 +82,12 @@ export default function ServiceSection() {
           </Grid>
         </Box>
       </Container>
-      {/* <ModalVideo 
+      <ModalVideo 
         channel="youtube"
         isOpen={videoOpen}
         videoId="iGBERMGMIvc"
         onClose={() => setVideoOpen(false) }
-      /> */}
+      />
     </section>
   );
 }
